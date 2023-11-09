@@ -3,9 +3,9 @@ import matplotlib.pyplot as plt
 from arch import arch_model
 
 # read the data
-btc = pd.read_csv("../data/BTC.csv")
-eth = pd.read_csv("../data/ETH.csv")
-usdt = pd.read_csv("../data/USDt.csv")
+btc = pd.read_csv("data/BTC.csv")
+eth = pd.read_csv("data/ETH.csv")
+usdt = pd.read_csv("data/USDt.csv")
 
 # select columns
 btc_date = pd.to_datetime(btc.iloc[:, 0])
